@@ -5,8 +5,8 @@
 		"../../scss/checkout.scss"
 	],
 	"sourcesContent": [
-		"body {\n    padding: 3rem 1.5rem;\n    background-color: rgb(55, 215, 255);\n    font-size: 1.4rem;\n}\n  \n  // Style Bootstrap icons\n"
+		"\n"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,IAAI,AAAC,CACD,OAAO,CAAE,WAAW,CACpB,gBAAgB,CAAE,OAAiB,CACnC,SAAS,CAAE,MAAM,CACpB"
+	"mappings": ""
 }
