@@ -5,7 +5,7 @@
 		"../../scss/index.scss"
 	],
 	"sourcesContent": [
-		"@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,900&display=swap');\r\n@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,900&family=Oswald:wght@200&display=swap');\r\n$heading-font: 'Merriweather', serif;\r\n$body-font: serif'Oswald', sans-serif;\r\n\r\n.header{\r\n    font-family: $heading-font;\r\n}\r\nbody {\r\n    font-family: $body-font;\r\n    background-color: rgb(40, 201, 126);\r\n    font-size: 1rem;\r\n}\r\n.card-title{\r\n    font-family: $heading-font;\r\n    font-weight: bold;\r\n}"
+		"@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,900&display=swap');\n@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,900&family=Oswald:wght@200&display=swap');\n$heading-font: 'Merriweather', serif;\n$body-font: serif'Oswald', sans-serif;\n\n.header{\n    font-family: $heading-font;\n}\nbody {\n    font-family: $body-font;\n    background-color: rgb(40, 201, 126);\n    font-size: 1rem;\n}\n.card-title{\n    font-family: $heading-font;\n    font-weight: bold;\n}"
 	],
 	"names": [],
 	"mappings": "AAAA,OAAO,CAAC,qGAAI,CACZ,OAAO,CAAC,4HAAI,CAIZ,AAAA,OAAO,AAAA,CACH,WAAW,CAJA,cAAc,CAAE,KAAK,CAKnC,AACD,AAAA,IAAI,AAAC,CACD,WAAW,CANH,KAAK,CAAA,QAAQ,CAAE,UAAU,CAOjC,gBAAgB,CAAE,OAAiB,CACnC,SAAS,CAAE,IAAI,CAClB,AACD,AAAA,WAAW,AAAA,CACP,WAAW,CAZA,cAAc,CAAE,KAAK,CAahC,WAAW,CAAE,IAAI,CACpB"
