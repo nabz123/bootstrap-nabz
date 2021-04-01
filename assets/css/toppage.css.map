@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "toppage.css",
+	"sources": [
+		"../../scss/toppage.scss"
+	],
+	"sourcesContent": [
+		"#myBtn {\n    display: none;\n    position: fixed;\n    bottom: 20px;\n    right: 30px;\n    z-index: 99;\n    font-size: 18px;\n    border: none;\n    outline: none;\n    background-color: #007bff;\n    color: white;\n    cursor: pointer;\n    padding: 15px;\n    border-radius: 4px;\n}\n\n#myBtn:hover {\n    background-color: #555;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,MAAM,AAAC,CACH,OAAO,CAAE,IAAI,CACb,QAAQ,CAAE,KAAK,CACf,MAAM,CAAE,IAAI,CACZ,KAAK,CAAE,IAAI,CACX,OAAO,CAAE,EAAE,CACX,SAAS,CAAE,IAAI,CACf,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,gBAAgB,CAAE,OAAO,CACzB,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,OAAO,CACf,OAAO,CAAE,IAAI,CACb,aAAa,CAAE,GAAG,CACrB,AAED,AAAA,MAAM,AAAA,MAAM,AAAC,CACT,gBAAgB,CAAE,IAAI,CACzB"
+}
