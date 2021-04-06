@@ -13,12 +13,13 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/toppage.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css"> 
     <title>Products</title>
   </head>
   <body>
     <header>  
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="background-color: #1c2331" role="navigation">
         <!-- Container wrapper -->
         <div class="container-fluid">
     
@@ -102,7 +103,7 @@
     <main class="mt-5">
       <div class="container">
           <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <nav class="navbar-expand-lg navbar-light bg-light mb-4">
                 <!-- Container wrapper -->
                 <div class="container-fluid">
                 
@@ -263,53 +264,109 @@
                 </div>
             </section>
       </div>
-        <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" ></button>
+        <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" roll="go up"></button>
 
-        <footer class="bg-dark text-left text-white">     
+        <footer class="text-center text-lg-start text-white" style="background-color: #1c2331" role="footer">
           <!-- Grid container -->
-          <div class="container p-4">
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">adt1 Web Design</h5>
-                <p>
-                  Created and Designed by Nabeel Riad
-                  <br>
-                  Otago Polytechnic
-                </p>
-                <section class="mb-4"> 
-                  <!-- Github -->
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #000000;" href="https://github.com/nabz123/bootstrap-nabz" role="button"><i class="fab fa-github"></i></a>
-                    <a class="btn btn-primary btn-floating m-1" style="background-color: #000000;" href="https://twitter.com/XZillla" role="button" ><i class="fab fa-twitter"></i></a>
-                </section>  
-              </div>      
-              <div class="col-lg-6 col-md-12 mb-4 mb-md-0">           
-                <section class="mb-4"> 
-                  <!-- Github -->
-                  <h5 class="text-uppercase">Contact Details</h5>
-                </section>         
-                <section class="mb-4"> 
-                <!-- Twitter -->
-                    <p>mohanr1@student.op.ac.nz</p>
-                </section>
-              </div>
-              <!--Grid column-->
-            </div>
-            <!--Grid row-->
-          </div>
-          <!-- Grid container -->
-          <!-- Copyright -->
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
-            <a class="text-light" href="https://github.com/nabz123/bootstrap-nabz">NABZ Sports</a>
-          </div>
-          <!-- Copyright -->
-          </footer>
-
-    </main>
-      
+          <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <section class="" >
+              
+              <!--Grid row-->
+              <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    NABZ Sports
+                  </h6>
+                  <p>
+                    ADT1 Web Design <br>NABZ Sports is 100% New Zealand owned and operated company.
+                  </p>
+                </div>
+                <!-- Grid column -->
     
+                <hr class="w-100 clearfix d-md-none" />
+                
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">
+                    Useful links
+                  </h6>
+                  <p>
+                    <a href="product.html" class="text-white">Products</a>
+                  </p>
+                  <p>
+                    <a href="checkout.html" class="text-white">Checkout</a>
+                  </p>
+                  <p>
+                    <a href="about.html" class="text-white">About Us</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+    
+                <hr class="w-100 clearfix d-md-none" />
+    
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Refrences</h6>
+                  <p>
+                    <a href="https://github.com/martinkean/bootstrap-npm-starter" class="text-white">Martin Dean</a>
+                  </p>
+                  <p>
+                    <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>
+                  </p>
+                  <p>
+                    <a href="http://mdbootstrap.com/" class="text-white">MD Bootstrap</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+    
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                  <p><i class="fas fa-home mr-3"></i> Otago Polytechnic, NZ</p>
+                  <p><i class="fas fa-envelope mr-3"></i> <a class="text-white" href="mailto:mohanr1@student.op.ac.nz"> Email Us</a></p>
+                  <p><i class="fas fa-phone mr-3"></i> + 64 22 1234 567</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+    
+            <hr class="my-3">
+    
+            <!-- Section: Copyright -->
+            <section class="p-3 pt-0">
+              <div class="row d-flex align-items-center">
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8 text-center text-md-start">
+                  <!-- Copyright -->
+                  <div class="p-3">
+                    © 2021 Copyright:
+                    <a class="text-white" href="https://github.com/nabz123/bootstrap-nabz">NABZ Sports</a>
+                  </div>
+                  <!-- Copyright -->
+                </div>
+                <!-- Grid column -->
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                  <!-- Github -->
+                  <a href="https://github.com/nabz123/bootstrap-nabz" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i  class="fab fa-github"></i></a>
+                  <!-- Twitter -->
+                  <a href="https://twitter.com/XZillla" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+                </div>
+                <!-- Grid column -->
+              </div>
+            </section>
+            <!-- Section: Copyright -->
+          </div>
+          <!-- Grid container -->
+        </footer>
+    </main>
     <!-- MDB -->
     <script src="assets/js/toppage.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
