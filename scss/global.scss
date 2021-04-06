@@ -76,10 +76,7 @@ $border-radius: .4rem;
 // @import "bootstrap/scss/print";
 
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,900&family=Oswald:wght@200&display=swap');
-$heading-font: 'Merriweather', serif;
-$body-font: serif'Oswald', sans-serif;
+
 
 //
 // Custom styles
@@ -91,9 +88,7 @@ $highlight-colour: #FFA41C;     // Bright orange - Buttons - Secondary highlight
 $secondary-highlight: #FFD814;  // Light Yellow for buttons
 $secondary-body-bg: #3F4B8C;    // Secondary Bg color
 
-.header{
-    font-family: $heading-font;
-}
+
 body {
     font-family: $body-font;
     font-size: 1rem;
@@ -103,9 +98,6 @@ body {
     background-color: #ff5500;
 }
 
-.card-title{
-    font-family: $heading-font;
-    font-weight: bold;
-}
+
 
   
