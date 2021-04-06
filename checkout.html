@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/navbar.css" /> 
-  <link rel="stylesheet" href="assets/css/toppage.css" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />    
-  <title>NABZ Sports</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/toppage.css">
+    <link rel="stylesheet" href="assets/css/navbar.css"> 
+    <title>About Us</title>
 </head>
-<body class="grey">
+<body>
+  <main>
   <header>  
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" role="navigation" aria-label="nav links">
       <!-- Container wrapper -->
       <div class="container-fluid">
 
@@ -30,7 +32,7 @@
         </button>
 
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-label="collapsible menu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             <!-- Link -->
@@ -49,9 +51,9 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
-
+            
             <!-- Dropdown -->
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" role="links" aria-label="menu">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -95,371 +97,369 @@
     <!-- Navbar -->
   </header>
 
-  <!--Main layout-->
-  <main class="mt-5 pt-4">
-    <div class="container wow fadeIn">
+  <div class="container wow fadeIn">
 
-      <!-- Heading -->
-      <h2 class="my-5 h2 text-center">Checkout form</h2>
+    <!-- Heading -->
+    <h2 class="my-5 h2 text-center">Checkout form</h2>
 
-      <!--Grid row-->
-      <div class="row">
+    <!--Grid row-->
+    <div class="row">
 
-        <!--Grid column-->
-        <div class="col-md-8 mb-4">
+      <!--Grid column-->
+      <div class="col-md-8 mb-4">
 
-          <!--Card-->
-          <div class="card">
+        <!--Card-->
+        <div class="card">
 
-            <!--Card content-->
-            <form class="card-body">
+          <!--Card content-->
+          <form class="card-body">
 
-              <!--Grid row-->
-              <div class="row">
+            <!--Grid row-->
+            <div class="row">
 
-                <!--Grid column-->
-                <div class="col-md-6 mb-2">
+              <!--Grid column-->
+              <div class="col-md-6 mb-2">
 
-                  <!--firstName-->
-                  <div class="md-form ">
-                    <input type="text" id="firstName" class="form-control">
-                    <label for="firstName" class="">First name</label>
-                  </div>
-
+                <!--firstName-->
+                <div class="md-form ">
+                  <input type="text" id="firstName" class="form-control">
+                  <label for="firstName" class="">First name</label>
                 </div>
-                <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-md-6 mb-2">
+              </div>
+              <!--Grid column-->
 
-                  <!--lastName-->
-                  <div class="md-form">
-                    <input type="text" id="lastName" class="form-control">
-                    <label for="lastName" class="">Last name</label>
-                  </div>
+              <!--Grid column-->
+              <div class="col-md-6 mb-2">
 
+                <!--lastName-->
+                <div class="md-form">
+                  <input type="text" id="lastName" class="form-control">
+                  <label for="lastName" class="">Last name</label>
                 </div>
-                <!--Grid column-->
 
               </div>
-              <!--Grid row-->
+              <!--Grid column-->
 
-              <!--Username-->
-              <div class="md-form input-group pl-0 mb-5">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">@</span>
+            </div>
+            <!--Grid row-->
+
+            <!--Username-->
+            <div class="md-form input-group pl-0 mb-5">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+              <input type="text" class="form-control py-0" placeholder="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <!--email-->
+            <div class="md-form mb-5">
+              <input type="text" id="email" class="form-control" placeholder="youremail@example.com">
+              <label for="email" class="">Email (optional)</label>
+            </div>
+
+            <!--address-->
+            <div class="md-form mb-5">
+              <input type="text" id="address" class="form-control" placeholder="1234 Main St">
+              <label for="address" class="">Address</label>
+            </div>
+
+            <!--address-2-->
+            <div class="md-form mb-5">
+              <input type="text" id="address-2" class="form-control" placeholder="Apartment or suite">
+              <label for="address-2" class="">Address 2 (optional)</label>
+            </div>
+
+            <!--Grid row-->
+            <div class="row">
+
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-12 mb-4">
+
+                <label for="country">Country</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>New Zealand</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
                 </div>
-                <input type="text" class="form-control py-0" placeholder="Username" aria-describedby="basic-addon1">
+
               </div>
+              <!--Grid column-->
 
-              <!--email-->
-              <div class="md-form mb-5">
-                <input type="text" id="email" class="form-control" placeholder="youremail@example.com">
-                <label for="email" class="">Email (optional)</label>
-              </div>
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4">
 
-              <!--address-->
-              <div class="md-form mb-5">
-                <input type="text" id="address" class="form-control" placeholder="1234 Main St">
-                <label for="address" class="">Address</label>
-              </div>
-
-              <!--address-2-->
-              <div class="md-form mb-5">
-                <input type="text" id="address-2" class="form-control" placeholder="Apartment or suite">
-                <label for="address-2" class="">Address 2 (optional)</label>
-              </div>
-
-              <!--Grid row-->
-              <div class="row">
-
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-12 mb-4">
-
-                  <label for="country">Country</label>
-                  <select class="custom-select d-block w-100" id="country" required>
-                    <option value="">Choose...</option>
-                    <option>New Zealand</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please select a valid country.
-                  </div>
-
+                <label for="state">State</label>
+                <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Choose...</option>
+                  <option>Dunedin</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
                 </div>
-                <!--Grid column-->
 
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
+              </div>
+              <!--Grid column-->
 
-                  <label for="state">State</label>
-                  <select class="custom-select d-block w-100" id="state" required>
-                    <option value="">Choose...</option>
-                    <option>Dunedin</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please provide a valid state.
-                  </div>
+              <!--Grid column-->
+              <div class="col-lg-4 col-md-6 mb-4">
 
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Zip code required.
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-lg-4 col-md-6 mb-4">
-
-                  <label for="zip">Zip</label>
-                  <input type="text" class="form-control" id="zip" placeholder="" required>
-                  <div class="invalid-feedback">
-                    Zip code required.
-                  </div>
-
-                </div>
-                <!--Grid column-->
 
               </div>
-              <!--Grid row-->
+              <!--Grid column-->
 
-              <hr>
+            </div>
+            <!--Grid row-->
 
-              <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="same-address">
-                <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+            <hr>
+
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+              <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">Save this information for next time</label>
+            </div>
+
+            <hr>
+
+            <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                <label class="custom-control-label" for="credit">Credit card</label>
               </div>
-              <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="save-info">
-                <label class="custom-control-label" for="save-info">Save this information for next time</label>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="debit">Debit card</label>
               </div>
-
-              <hr>
-
-              <div class="d-block my-3">
-                <div class="custom-control custom-radio">
-                  <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                  <label class="custom-control-label" for="credit">Credit card</label>
-                </div>
-                <div class="custom-control custom-radio">
-                  <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                  <label class="custom-control-label" for="debit">Debit card</label>
-                </div>
-                <div class="custom-control custom-radio">
-                  <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                  <label class="custom-control-label" for="paypal">Paypal</label>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6 mb-3">
-                  <label for="cc-name">Name on card</label>
-                  <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                  <small class="text-muted">Full name as displayed on card</small>
-                  <div class="invalid-feedback">
-                    Name on card is required
-                  </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                  <label for="cc-number">Credit card number</label>
-                  <input type="text" class="form-control" id="cc-number" placeholder="" required>
-                  <div class="invalid-feedback">
-                    Credit card number is required
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-3 mb-3">
-                  <label for="cc-expiration">Expiration</label>
-                  <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-                  <div class="invalid-feedback">
-                    Expiration date required
-                  </div>
-                </div>
-                <div class="col-md-3 mb-3">
-                  <label for="cc-expiration">CVV</label>
-                  <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                  <div class="invalid-feedback">
-                    Security code required
-                  </div>
-                </div>
-              </div>
-              <hr class="mb-4">
-              <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
-
-            </form>
-
-          </div>
-          <!--/.Card-->
-
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-md-4 mb-4">
-
-          <!-- Heading -->
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-muted">Your cart</span>
-            <span class="badge badge-secondary badge-pill">3</span>
-          </h4>
-
-          <!-- Cart -->
-          <ul class="list-group mb-3 z-depth-1">
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Product name</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$12</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Second product</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$8</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-condensed">
-              <div>
-                <h6 class="my-0">Third item</h6>
-                <small class="text-muted">Brief description</small>
-              </div>
-              <span class="text-muted">$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between bg-light">
-              <div class="text-success">
-                <h6 class="my-0">Promo code</h6>
-                <small>EXAMPLECODE</small>
-              </div>
-              <span class="text-success">-$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20</strong>
-            </li>
-          </ul>
-          <!-- Cart -->
-
-          <!-- Promo code -->
-          <form class="card p-2">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-secondary btn-md waves-effect m-0" type="button">Redeem</button>
+              <div class="custom-control custom-radio">
+                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                <label class="custom-control-label" for="paypal">Paypal</label>
               </div>
             </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                <small class="text-muted">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-number">Credit card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+
           </form>
-          <!-- Promo code -->
 
         </div>
-        <!--Grid column-->
+        <!--/.Card-->
 
       </div>
-      <!--Grid row-->
+      <!--Grid column-->
 
-    </div>
-    <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" ></button>
-  </main>
-  <!--Main layout-->
+      <!--Grid column-->
+      <div class="col-md-4 mb-4">
 
-  <footer class="text-center text-lg-start text-white" style="background-color: #1c2331" role="navigation">
-    <!-- Grid container -->
-    <div class="container p-4 pb-0">
-      <!-- Section: Links -->
-      <section class="" >
-        
-        <!--Grid row-->
-        <div class="row">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              NABZ Sports
-            </h6>
-            <p>
-              ADT1 Web Design <br>NABZ Sports is 100% New Zealand owned and operated company.
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
+        <!-- Heading -->
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-muted">Your cart</span>
           
+          <span class="badge bg-danger ms-2">3</span>
+        </h4>
 
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              Useful links
-            </h6>
-            <p>
-              <a href="product.html" class="text-white">Products</a>
-            </p>
-            <p>
-              <a href="checkout.html" class="text-white">Checkout</a>
-            </p>
-            <p>
-              <a href="about.html" class="text-white">About Us</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Refrences</h6>
-            <p>
-              <a href="https://github.com/martinkean/bootstrap-npm-starter" class="text-white">Martin Dean</a>
-            </p>
-            <p>
-              <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>
-            </p>
-            <p>
-              <a href="http://mdbootstrap.com/" class="text-white">MD Bootstrap</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p><i class="fas fa-home mr-3"></i> Otago Polytechnic, NZ</p>
-            <p><i class="fas fa-envelope mr-3"></i> <a class="text-white" href="mailto:mohanr1@student.op.ac.nz"> Email Us</a></p>
-            <p><i class="fas fa-phone mr-3"></i> + 64 22 1234 567</p>
-          </div>
-          <!-- Grid column -->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
-
-      <hr class="my-3">
-
-      <!-- Section: Copyright -->
-      <section class="p-3 pt-0">
-        <div class="row d-flex align-items-center">
-          <!-- Grid column -->
-          <div class="col-md-7 col-lg-8 text-center text-md-start">
-            <!-- Copyright -->
-            <div class="p-3">
-              © 2021 Copyright:
-              <a class="text-white" href="https://github.com/nabz123/bootstrap-nabz">NABZ Sports</a>
+        <!-- Cart -->
+        <ul class="list-group mb-3 z-depth-1">
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Product name</h6>
+              <small class="text-muted">Brief description</small>
             </div>
-            <!-- Copyright -->
-          </div>
-          <!-- Grid column -->
-          <!-- Grid column -->
-          <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
-            <!-- Github -->
-            <a href="https://github.com/nabz123/bootstrap-nabz" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i  class="fab fa-github"></i></a>
-            <!-- Twitter -->
-            <a href="https://twitter.com/XZillla" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
-          </div>
-          <!-- Grid column -->
-        </div>
-      </section>
-      <!-- Section: Copyright -->
-    </div>
-    <!-- Grid container -->
-  </footer>
-    <script src="assets/js/toppage.js"></script>
-  <!-- MDB -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+            <span class="text-muted">$12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Second product</h6>
+              <small class="text-muted">Brief description</small>
+            </div>
+            <span class="text-muted">$8</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-condensed">
+            <div>
+              <h6 class="my-0">Third item</h6>
+              <small class="text-muted">Brief description</small>
+            </div>
+            <span class="text-muted">$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+              <h6 class="my-0">Promo code</h6>
+              <small>EXAMPLECODE</small>
+            </div>
+            <span class="text-success">-$5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between">
+            <span>Total (USD)</span>
+            <strong>$20</strong>
+          </li>
+        </ul>
+        <!-- Cart -->
 
-</body>
+        <!-- Promo code -->
+        <form class="card p-2">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-secondary btn-md waves-effect m-0" type="button">Redeem</button>
+            </div>
+          </div>
+        </form>
+        <!-- Promo code -->
+
+      </div>
+      <!--Grid column-->
+
+    </div>
+    <!--Grid row-->
+
+  </div>
+     
+      <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" ></button>
+    </main>
+    <!-- Main layout -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #1c2331" role="navigation">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="" >
+          
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                NABZ Sports
+              </h6>
+              <p>
+                ADT1 Web Design <br>NABZ Sports is 100% New Zealand owned and operated company.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+            
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                Useful links
+              </h6>
+              <p>
+                <a href="product.html" class="text-white">Products</a>
+              </p>
+              <p>
+                <a href="checkout.html" class="text-white">Checkout</a>
+              </p>
+              <p>
+                <a href="about.html" class="text-white">About Us</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Refrences</h6>
+              <p>
+                <a href="https://github.com/martinkean/bootstrap-npm-starter" class="text-white">Martin Dean</a>
+              </p>
+              <p>
+                <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>
+              </p>
+              <p>
+                <a href="http://mdbootstrap.com/" class="text-white">MD Bootstrap</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <hr class="w-100 clearfix d-md-none" />
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Otago Polytechnic, NZ</p>
+              <p><i class="fas fa-envelope mr-3"></i> <a class="text-white" href="mailto:mohanr1@student.op.ac.nz"> Email Us</a></p>
+              <p><i class="fas fa-phone mr-3"></i> + 64 22 1234 567</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-3">
+
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                © 2021 Copyright:
+                <a class="text-white" href="https://github.com/nabz123/bootstrap-nabz">NABZ Sports</a>
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+              <!-- Github -->
+              <a href="https://github.com/nabz123/bootstrap-nabz" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i  class="fab fa-github"></i></a>
+              <!-- Twitter -->
+              <a href="https://twitter.com/XZillla" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+            </div>
+            <!-- Grid column -->
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+        <!-- MDB -->
+        <script src="assets/js/toppage.js"></script>     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>     
+    </body>
 </html>

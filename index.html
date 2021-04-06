@@ -1,22 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/toppage.css">
-    <link rel="stylesheet" href="/assets/css/navbar.css">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />    
-    <title>NABZ Sports</title>
-  </head>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/toppage.css">
+    <link rel="stylesheet" href="assets/css/navbar.css"> 
+    <title>About Us</title>
+</head>
+<body>
+  <main>
   <header>  
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark" role="navigation" aria-label="nav links">
       <!-- Container wrapper -->
       <div class="container-fluid">
 
@@ -31,7 +32,7 @@
         </button>
 
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" aria-label="collapsible menu">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
             <!-- Link -->
@@ -50,10 +51,9 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
-
-
+            
             <!-- Dropdown -->
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" role="links" aria-label="menu">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a>
@@ -97,16 +97,13 @@
     <!-- Navbar -->
   </header>
 
-  <body>
-    
-    <main class="mt-5">
-      <div class="container">
+      <div class="container mt-4 mb-5">
 
+        hi  
       </div>
-
       <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" ></button>
     </main>
-
+    <!-- Main layout -->
     <footer class="text-center text-lg-start text-white" style="background-color: #1c2331" role="navigation">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
@@ -207,10 +204,8 @@
       </div>
       <!-- Grid container -->
     </footer>
-
-    <!-- MDB -->
-    <script src="assets/js/toppage.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
-  </body>
-
+        <!-- MDB -->
+        <script src="assets/js/toppage.js"></script>     
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>     
+    </body>
 </html>
