@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "productfonts.css",
+	"sources": [
+		"../../scss/productfonts.scss"
+	],
+	"sourcesContent": [
+		"@font-face {\r\n    font-family: 'TruenoLight';\r\n    src: url(\"https://fontlibrary.org/face/trueno/assets/fonts/trueno/f6125819e866b78711583d68298888ac/e5a66b560e95611395f22797b5e02df9/TruenoLight.otf\") format(\"opentype\");\r\n    font-weight: normal;\r\n    font-style: normal; \r\n}\r\n  \r\n  /* Treuno Ultra Black*/\r\n@font-face {\r\n    font-family: 'TruenoUltraBlack';\r\n    src: url(\"https://fontlibrary.org/face/trueno/assets/fonts/trueno/69d25d10193139d4a9cfc9d2196c23dc/87bdac0a04e4baf5bf4e424e13cb842e/TruenoUltraBlack.otf\") format(\"opentype\");\r\n    font-weight: normal;\r\n    font-style: normal; \r\n}\r\n  \r\n  /* Treuno Bold*/\r\n@font-face {\r\n    font-family: 'TruenoBold';\r\n    src: url(\"https://fontlibrary.org/face/trueno/assets/fonts/trueno/69d25d10193139d4a9cfc9d2196c23dc/75e1a3c3d0b921692ddf6a298bedab62/TruenoBold.otf\") format(\"opentype\");\r\n    font-weight: normal;\r\n    font-style: normal; \r\n}\r\n.company-name\r\n{\r\n    font-family: \"TruenoBold\", Helvetica, Arial, sans-serif ;\r\n    font-weight: bold;\r\n}\r\n.product-title{\r\n    font-family: \"TruenoBold\", Helvetica, Arial, sans-serif ;\r\n    font-weight: bold;\r\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,UAAU,CACN,WAAW,CAAE,aAAa,CAC1B,GAAG,CAAE,gJAAgJ,CAAC,kBAAkB,CACxK,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,MAAM,CAItB,UAAU,CACN,WAAW,CAAE,kBAAkB,CAC/B,GAAG,CAAE,qJAAqJ,CAAC,kBAAkB,CAC7K,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,MAAM,CAItB,UAAU,CACN,WAAW,CAAE,YAAY,CACzB,GAAG,CAAE,+IAA+I,CAAC,kBAAkB,CACvK,WAAW,CAAE,MAAM,CACnB,UAAU,CAAE,MAAM,CAEtB,AAAA,aAAa,AACb,CACI,WAAW,CAAE,0CAA2C,CACxD,WAAW,CAAE,IAAI,CACpB,AACD,AAAA,cAAc,AAAA,CACV,WAAW,CAAE,0CAA2C,CACxD,WAAW,CAAE,IAAI,CACpB"
+}
