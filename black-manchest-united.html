@@ -81,7 +81,8 @@
   </header>
 
   <body>
-    <main>
+    <main class="mt-5">
+      <div class="row"> </div>
         <div class="container product-container">
             <div class="product-img-gallery">
                 <div class="carousel product-main" data-flickity='{"pageDots": false, "prevNextButtons": false}'>
@@ -153,13 +154,11 @@
                   <div class="buy-buttons-group">
                       <div class="buy-button">
                           <select class="custom-select mb-2">
-                              <option value="1" selected>1</option>
-                              <option value="2" >2</option>
-                              <option value="3" >3</option>
-                              <option value="4" >4</option>
-                              <option value="5" >5</option>
-                              <option value="6" >6</option>
-                              <option value="7" >7</option>
+                              <option value="XS" selected>XS</option>
+                              <option value="S" >S</option>
+                              <option value="M" >M</option>
+                              <option value="L" >L</option>
+                              <option value="XL" >XL</option>
                           </select>
                       </div>
       
@@ -183,7 +182,39 @@
                   </div> <!-- end of .buy-buttons-group -->
               </form> <!-- end of Add to Cart -->
             </div> <!-- end of .product-pricing -->
-          </div> <!-- end of .row -->        
+          </div> <!-- end of .row -->
+          <section style="margin-top: 10px;">
+            <div class="row d-flex justify-content-center">
+              <h3 class="text-center py-3 mb-5"> Submit a request</h3>
+              <!--Grid column-->
+              <div class="col-md-6">
+                <form name="requestClothing" method="POST" data-netlify="true">
+                  <!-- Pname input -->
+                  <div class="form-outline mb-4">
+                    <input type="text" id="form4Example1" name="Pname" class="form-control" />
+                    <label class="form-label" name="Pname" for="form4Example1">Product Name</label>
+                  </div>
+                  <div class="form-outline mb-4">
+                    <label> Your Size 
+                      <select name="size[]" class="custom-select mb-2" style="width: 250px">
+                        <option value="XS" selected>XS</option>
+                        <option value="S" >S</option>
+                        <option value="M" >M</option>
+                        <option value="L" >L</option>
+                        <option value="XL" >XL</option>
+                      </selet>
+                    </label>
+                  </div>
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+                </form>
+              </div>
+              <!--Grid column-->
+            </div>
+
+          </section>      
+           
+            <!--Grid row--> 
             <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" ></button>
         </main>
 
