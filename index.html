@@ -10,11 +10,13 @@
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/toppage.css">
-    <link rel="stylesheet" href="assets/css/navbar.css"> 
-    <title>About Us</title>
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/customfont.css">
+     
+    <title>NABZ Sports</title>
 </head>
 <body>
-  <main>
+  
   <header>  
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark" role="navigation" aria-label="nav links">
@@ -80,9 +82,6 @@
             <li class="nav-item me-3 me-lg-0">
               <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
             </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav-link" href="#"><i class="fab fa-twitter"></i></a>
-            </li>
           </ul>
 
           <!-- Search -->
@@ -96,12 +95,31 @@
     </nav>
     <!-- Navbar -->
   </header>
-
-      <div class="container mt-4 mb-5">
-
+  <main>
+    <main class="mt-5">
+      <div class="container-md">
+        <h3 class="text-center py-3 mb-5"> Contact Us</h3>
+        <form name="contact" method="POST" data-netlify="true">
+          <!-- Name input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form4Example1" class="form-control" />
+            <label class="form-label" for="form4Example1">Name</label>
+          </div>
         
-
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form4Example2" class="form-control" />
+            <label class="form-label" for="form4Example2">Email address</label>
+          </div>
         
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+            <label class="form-label" for="form4Example3">Message</label>
+          </div>
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
+        </form>
       </div>
       <button onclick="topFunction()" id="myBtn" title="Go to top" class="fas fa-angle-double-up" ></button>
     </main>
@@ -167,7 +185,7 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="fas fa-home mr-3"></i> Otago Polytechnic, NZ</p>
+              <p><i class="fas fa-home mr-3"></i> <a class="text-white" target="_blank" href="https://www.google.com/maps/place/Otago+Polytechnic/@-45.8660729,170.5183321,15z/data=!4m2!3m1!1s0x0:0xc1794179fb2789e?sa=X&ved=2ahUKEwj5x_eR6OrvAhUXOSsKHUrBDk4Q_BIwHnoECDQQBQ">Otago Polytechnic, NZ</a></p>
               <p><i class="fas fa-envelope mr-3"></i> <a class="text-white" href="mailto:mohanr1@student.op.ac.nz"> Email Us</a></p>
               <p><i class="fas fa-phone mr-3"></i> + 64 22 1234 567</p>
             </div>
@@ -187,7 +205,7 @@
               <!-- Copyright -->
               <div class="p-3">
                 © 2021 Copyright:
-                <a class="text-white" href="https://github.com/nabz123/bootstrap-nabz">NABZ Sports</a>
+                <a class="text-white" target="_blank" href="https://github.com/nabz123/bootstrap-nabz">NABZ Sports</a>
               </div>
               <!-- Copyright -->
             </div>
@@ -195,9 +213,9 @@
             <!-- Grid column -->
             <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
               <!-- Github -->
-              <a href="https://github.com/nabz123/bootstrap-nabz" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i  class="fab fa-github"></i></a>
+              <a href="https://github.com/nabz123/bootstrap-nabz" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i  class="fab fa-github"></i></a>
               <!-- Twitter -->
-              <a href="https://twitter.com/XZillla" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
+              <a href="https://twitter.com/XZillla" target="_blank" class="btn btn-outline-light btn-floating m-1" class="text-white" role="button"><i class="fab fa-twitter"></i></a>
             </div>
             <!-- Grid column -->
           </div>
