@@ -19,14 +19,10 @@ body {
 
 .product-container {
     //   background-color: #ffffff;
-    
     margin-top: 2em;
-    margin-bottom: 2em;
-    padding: 3em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-  
     @media screen and (max-width: 992px) {
       grid-template-columns: repeat(1, 1fr);
       padding: 0;
