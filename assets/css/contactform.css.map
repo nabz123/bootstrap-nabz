@@ -5,8 +5,8 @@
 		"../../scss/contactform.scss"
 	],
 	"sourcesContent": [
-		".order-form {\n    margin-bottom: 0.5em;\n    padding-bottom: 0.5em;\n    max-width: 300px;\n    // background-color: beige;\n    box-shadow: 0 1px 6px 0 rgba(58, 34, 12, 0.2), 0 2px 20px 0 rgba(58, 34, 12, 0.02);\n}"
+		".order-form {\n    margin-top: 1em;\n    margin-bottom: 1em;\n    padding-top: 0.5em;\n    padding-bottom: 0.5em;\n    max-width: 300px;\n    // background-color: beige;\n    box-shadow: 0 1px 6px 0 rgba(58, 34, 12, 0.2), 0 2px 20px 0 rgba(58, 34, 12, 0.02);\n}"
 	],
 	"names": [],
-	"mappings": "AAAA,AAAA,WAAW,AAAC,CACR,aAAa,CAAE,KAAK,CACpB,cAAc,CAAE,KAAK,CACrB,SAAS,CAAE,KAAK,CAEhB,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,kBAAqB,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAC,mBAAsB,CACrF"
+	"mappings": "AAAA,AAAA,WAAW,AAAC,CACR,UAAU,CAAE,GAAG,CACf,aAAa,CAAE,GAAG,CAClB,WAAW,CAAE,KAAK,CAClB,cAAc,CAAE,KAAK,CACrB,SAAS,CAAE,KAAK,CAEhB,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC,CAAC,kBAAqB,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,CAAC,CAAC,mBAAsB,CACrF"
 }
